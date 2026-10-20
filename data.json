@@ -1,0 +1,116 @@
+{
+ "updated": "2026-10-20",
+ "note": "Edit raised to update progress bars",
+ "items": [
+  {
+   "id": "mic",
+   "ref": "GEAR MIC",
+   "category": "Condenser microphone",
+   "name": "Audio-Technica AT2020",
+   "shop": "Turramurra Music",
+   "url": "https://www.turramusic.com.au/products/audio-technica-at2020-black",
+   "price": 129.0,
+   "raised": 0,
+   "img": "img/mic.jpg"
+  },
+  {
+   "id": "interface",
+   "ref": "GEAR INTERFACE",
+   "category": "Audio interface",
+   "name": "Focusrite Scarlett 2i2 4th Gen",
+   "shop": "Sky Music",
+   "url": "https://skymusic.com.au/products/focusrite-scarlett-2i2-4th-gen",
+   "price": 306.0,
+   "raised": 0,
+   "img": "img/interface.jpg"
+  },
+  {
+   "id": "headphones",
+   "ref": "GEAR HEADPHONES",
+   "category": "Studio headphones",
+   "name": "Audio-Technica ATH-M50x",
+   "shop": "Turramurra Music",
+   "url": "https://www.turramusic.com.au/products/audio-technica-ath-m50x-bk",
+   "price": 239.0,
+   "raised": 0,
+   "img": "img/headphones.jpg"
+  },
+  {
+   "id": "monitors",
+   "ref": "GEAR MONITORS",
+   "category": "Studio monitors (pair)",
+   "name": "PreSonus Eris 3.5 2nd Gen",
+   "shop": "Better Music",
+   "url": "https://www.bettermusic.com.au/products/presonus-eris-3-5-2nd-gen-3-5-inch-active-media-reference-monitors-pair",
+   "price": 195.0,
+   "raised": 0,
+   "img": "img/monitors.jpg"
+  },
+  {
+   "id": "keys",
+   "ref": "GEAR KEYS",
+   "category": "MIDI keyboard",
+   "name": "Arturia MiniLab 3",
+   "shop": "Joondalup Music Centre",
+   "url": "https://joondalupmusic.com.au/products/arturia-minilab-mk3-25-key-universal-midi-controller-black",
+   "price": 179.0,
+   "raised": 0,
+   "img": "img/keys.jpg"
+  },
+  {
+   "id": "guitar",
+   "ref": "GEAR GUITAR",
+   "category": "Acoustic guitar",
+   "name": "Yamaha FG800",
+   "shop": "Turramurra Music",
+   "url": "https://www.turramusic.com.au/products/yamaha-fg800",
+   "price": 379.0,
+   "raised": 0,
+   "img": "img/guitar.jpg"
+  },
+  {
+   "id": "stand",
+   "ref": "GEAR STAND",
+   "category": "Boom mic stand",
+   "name": "On-Stage MS7701B",
+   "shop": "Belfield Music",
+   "url": "https://www.belfieldmusic.com.au/products/on-stage-ms7701b-boom-microphone-stand",
+   "price": 55.0,
+   "raised": 0,
+   "img": "img/stand.jpg"
+  },
+  {
+   "id": "pop",
+   "ref": "GEAR POP",
+   "category": "Pop filter",
+   "name": "CPK 4 inch pop filter",
+   "shop": "Sky Music",
+   "url": "https://skymusic.com.au/products/cpk-4-pop-filter",
+   "price": 26.0,
+   "raised": 0,
+   "img": "img/pop.jpg"
+  },
+  {
+   "id": "cable",
+   "ref": "GEAR CABLE",
+   "category": "XLR mic cable 6m",
+   "name": "Stagg SMC6",
+   "shop": "Turramurra Music",
+   "url": "https://www.turramusic.com.au/products/stagg-microphone-cable-6-metre-smc6",
+   "price": 19.95,
+   "raised": 0,
+   "img": "img/cable.jpg"
+  },
+  {
+   "id": "panels",
+   "ref": "GEAR PANELS",
+   "category": "Acoustic panels (12 pack)",
+   "name": "Hexagon acoustic panels 12pcs",
+   "shop": "Tempo Gear",
+   "url": "https://tempogear.com.au/products/black-hexagon-acoustic-panel-self-adhesive-12pcs",
+   "price": 29.95,
+   "raised": 0,
+   "img": "img/panels.jpg"
+  }
+ ]
+}

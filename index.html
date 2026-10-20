@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Support Coffeebreak</title><meta name="description" content="Back Coffeebreak, a Newcastle NSW songwriter and app maker. Become a fan sponsor or chip in for studio gear.">
+<link rel="icon" href="logo.jpg"><meta name="theme-color" content="#ff4fa3">
+<style>
+*{box-sizing:border-box}body{margin:0;font:17px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;color:#4a0f2e;background:#ffe3f0;background-image:radial-gradient(#ffc2de 1.5px,transparent 1.6px);background-size:22px 22px}
+a{color:#c2185b}h1,h2,h3{line-height:1.2;margin:.3em 0}.wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+.hero{background:linear-gradient(160deg,#ff4fa3,#ff8cc6 55%,#ffc2de);color:#fff;text-align:center;padding:28px 0 0;overflow:hidden;position:relative;border-bottom:6px solid #fff}
+.hero .logo{width:92px;height:92px;border-radius:24px;border:4px solid #fff;box-shadow:0 6px 18px #c2185b66}
+.hero h1{font-size:40px;text-shadow:0 3px 0 #c2185b}.hero p{font-size:19px;max-width:620px;margin:6px auto 14px}
+.girls{display:flex;justify-content:center;align-items:flex-end;margin-top:8px}.girls img{width:120px;margin:0 -14px;filter:drop-shadow(0 6px 8px #c2185b55);animation:bob 3s ease-in-out infinite}
+.girls img:nth-child(2n){animation-delay:-1.5s;width:140px}@keyframes bob{50%{transform:translateY(-8px)}}
+.spark{position:absolute;color:#fff;font-size:26px;animation:tw 2s infinite}@keyframes tw{50%{opacity:.2;transform:scale(.6)}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:56px;padding:12px 22px;border-radius:999px;border:0;background:#fff;color:#c2185b;font:inherit;font-weight:800;text-decoration:none;cursor:pointer;box-shadow:0 4px 0 #c2185b55}
+.btn.p{background:#c2185b;color:#fff;box-shadow:0 4px 0 #7a0e3a}.btn:active{transform:translateY(2px)}
+section{padding:26px 0}.sh{display:flex;align-items:center;gap:10px}.sh img{width:84px;flex:0 0 84px}.sh h2{font-size:28px;color:#c2185b}.sh h2:after{content:" ✦";color:#ff4fa3}
+.card{background:#fff;border:3px solid #ff8cc6;border-radius:22px;padding:16px;box-shadow:6px 6px 0 #ff8cc6;position:relative}
+.card:before{content:"✦";position:absolute;top:6px;right:12px;color:#ff4fa3;font-size:20px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.lv{display:flex;flex-direction:column;gap:8px}.lv .top{display:flex;align-items:center;gap:10px}.lv .top img{width:76px}.lv .amt{font-size:30px;font-weight:900;color:#c2185b}.lv .amt small{font-size:15px}
+.item img.pi{width:100%;aspect-ratio:1;object-fit:contain;border-radius:14px;background:#fff}.item .cat{font-size:13px;font-weight:800;color:#ff4fa3;text-transform:uppercase;letter-spacing:.5px}
+.bar{height:16px;background:#ffe3f0;border-radius:999px;overflow:hidden;border:2px solid #ff8cc6}.bar i{display:block;height:100%;background:linear-gradient(90deg,#ff4fa3,#c2185b)}
+.muted{color:#8a4a68;font-size:14px}.pay{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:20px;font-weight:800}
+.steps li{margin:6px 0}input,select,textarea{width:100%;font:inherit;padding:12px;border-radius:14px;border:2px solid #ff8cc6;margin:4px 0 10px;background:#fff8fb}
+.perks li{margin:6px 0}#modal{display:none;position:fixed;inset:0;background:#4a0f2ecc;z-index:9;align-items:flex-end;justify-content:center}#modal .card{max-width:480px;width:100%;border-radius:22px 22px 0 0;max-height:92vh;overflow:auto}
+.ref{background:#ffe3f0;border-radius:12px;padding:8px 12px;font-weight:800;font-size:19px}
+footer{background:#c2185b;color:#fff;padding:22px 0;text-align:center;font-size:14px}footer a{color:#fff}
+.links{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+@media(min-width:700px){.girls img{width:150px}.girls img:nth-child(2n){width:175px}.hero h1{font-size:52px}#modal{align-items:center}#modal .card{border-radius:22px}}
+</style></head><body>
+<header class="hero"><span class="spark" style="left:8%;top:20px">✦</span><span class="spark" style="right:10%;top:60px;animation-delay:-1s">✧</span><span class="spark" style="left:20%;top:140px;animation-delay:-.5s">✦</span>
+<div class="wrap"><img class="logo" src="logo.jpg" alt="Coffeebreak logo"><h1>Support Coffeebreak</h1>
+<p>I'm Coffeebreak, a songwriter and app and game maker from Newcastle NSW. Fans like you keep the music, apps and Coffeebreak Radio going.</p>
+<div class="links"><a class="btn p" href="#levels">💖 Become a fan sponsor</a><a class="btn" href="#wish">🎙️ Chip in for gear</a></div>
+<div class="girls"><img src="girls/g1.webp" alt=""><img src="girls/g3.webp" alt=""><img src="girls/g4.webp" alt="Coffeebreak Girl Flash"><img src="girls/g6.webp" alt=""><img src="girls/g8.webp" alt=""></div></div></header>
+<main class="wrap">
+<section id="levels"><div class="sh"><img src="girls/g2.webp" alt=""><h2>Fan sponsorship</h2></div>
+<p>Pick a level that suits you. Every gift goes straight into new songs, apps and studio time.</p>
+<div class="grid" id="lvGrid"></div>
+<div class="card" style="margin-top:18px"><h3>Every supporter gets</h3><ul class="perks"><li>✦ Your name on the Supporters wall (if you want it there)</li><li>✦ Early access to new songs and apps</li><li>✦ A shout-out on Coffeebreak Radio</li></ul><p class="muted">These are free thank-yous, not things you are buying.</p></div></section>
+<section id="wish"><div class="sh"><img src="girls/g5.webp" alt=""><h2>Studio wish list</h2></div>
+<p>Help me build a home studio. Chip in any amount toward an item. Prices are from Australian music shops and may change.</p>
+<div class="grid" id="wishGrid"></div></section>
+<section id="give"><div class="sh"><img src="girls/g7.webp" alt=""><h2>How to give</h2></div>
+<div class="grid"><div class="card"><h3>PayID (no fees)</h3><div class="pay">darkokaz@gmx.com <button class="btn p" data-copy="darkokaz@gmx.com">Copy</button></div>
+<ol class="steps"><li>Open your bank app and choose Pay to PayID.</li><li>Paste the PayID above.</li><li>Type your amount and a reference, like <b>FAN your name</b> or <b>GEAR MIC your name</b>.</li><li>For monthly levels, set it as a repeating payment in your bank app.</li><li>Send me a message below so I can thank you.</li></ol></div>
+<div class="card"><h3>Tip on itch.io</h3><p>Prefer card or PayPal? Leave a tip with any of my apps and games on itch.io.</p><a class="btn p" href="https://coffeebreaks.itch.io" target="_blank" rel="noopener">☕ Tip on itch.io</a></div></div></section>
+<section id="msg"><div class="sh"><img src="girls/g3.webp" alt=""><h2>Tell me you chipped in</h2></div>
+<form class="card" action="https://formsubmit.co/songwriterkaz@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New Coffeebreak supporter"><input type="hidden" name="_template" value="table"><input type="text" name="_honey" style="display:none">
+<input type="hidden" name="_next" value="https://songwriterkaz.github.io/coffeebreak-support/thanks.html">
+<label>Your name<input name="name" required maxlength="80"></label>
+<label>Your email (optional, so I can say thanks)<input name="email" type="email" maxlength="120"></label>
+<label>What did you chip in for<select name="chipped_in" id="forSel"></select></label>
+<label>Amount (optional)<input name="amount" inputmode="decimal" maxlength="20" placeholder="$"></label>
+<label>Message<textarea name="message" rows="3" maxlength="800"></textarea></label>
+<label style="display:flex;gap:8px;align-items:center"><input type="checkbox" name="show_on_wall" value="yes" style="width:auto;margin:0"> Show my name on the Supporters wall</label>
+<p><button class="btn p" type="submit">💌 Send</button></p></form></section>
+<section><div class="card"><h3>Please read</h3><p class="muted">Everything given here is a gift to support my music and apps. It is not a purchase of shares, not an investment, and gives no ownership, profit, interest or returns. Gifts are non-refundable. Perks are free thank-yous and may change. Payments go straight between you and me through your own bank or itch.io; this site never handles money.</p></div></section>
+</main>
+<footer><div class="wrap"><img src="logo.jpg" alt="" style="width:54px;border-radius:14px"><p>Follow Coffeebreak</p><div class="links">
+<a class="btn" href="https://www.youtube.com/@coffeebreakTVSERIES" target="_blank" rel="noopener">▶ YouTube</a><a class="btn" href="https://www.tiktok.com/@kobcountrymusic" target="_blank" rel="noopener">♪ TikTok</a><a class="btn" href="https://x.com/kobcountrymusic" target="_blank" rel="noopener">𝕏 X</a><a class="btn" href="https://songwriterkaz.github.io/coffeebreak-links/" target="_blank" rel="noopener">☕ All my apps</a></div>
+<p>Coffeebreak Girl Flash art and music by Coffeebreak, Newcastle NSW.</p></div></footer>
+<div id="modal"><div class="card"><button class="btn" id="mX" style="float:right;min-height:44px;padding:6px 14px">✖</button><h3 id="mT"></h3><div id="mB"></div></div></div>
+<script>
+var LV=[['Coffee','$5','one off','A coffee to keep me writing.','g1'],['Fan','$10','a month','Help me make a new song each month.','g4'],['Super Fan','$25','a month','Studio time and app updates.','g6'],['Patron','$100','one off','A big boost for new gear and releases.','g8'],['Your choice','Any','amount','Give what feels right, once or monthly.','g2']];
+function $(i){return document.getElementById(i)}function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function money(n){return '$'+(+n).toFixed(2).replace(/\.00$/,'')}
+$('lvGrid').innerHTML=LV.map(function(l){return '<div class="card lv"><div class="top"><img src="girls/'+l[4]+'.webp" alt=""><div><h3>'+l[0]+'</h3><div class="amt">'+l[1]+' <small>'+l[2]+'</small></div></div></div><p>'+l[3]+'</p><button class="btn p" data-give="'+esc(l[0])+'" data-amt="'+esc(l[1]+' '+l[2])+'" data-ref="'+esc(l[0].toUpperCase().replace(/ /g,''))+'">💖 Choose '+esc(l[0])+'</button></div>'}).join('');
+var opts=['A fan sponsorship level','Something else'];
+$('forSel').innerHTML=opts.map(function(o){return '<option>'+o+'</option>'}).join('');
+fetch('data.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){var it=d.items||[];
+ $('wishGrid').innerHTML=it.map(function(x){var p=Math.min(100,Math.round((x.raised||0)/x.price*100));return '<div class="card item">'+(x.img?'<img class="pi" src="'+esc(x.img)+'" alt="'+esc(x.name)+'" loading="lazy">':'')+'<div class="cat">'+esc(x.category)+'</div><h3>'+esc(x.name)+'</h3><div class="bar"><i style="width:'+p+'%"></i></div><p><b>'+money(x.raised||0)+' raised of '+money(x.price)+'</b><br><span class="muted">Price at <a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.shop)+'</a></span></p><button class="btn p" data-give="'+esc(x.name)+'" data-amt="Any amount" data-ref="'+esc(x.ref)+'">🎁 Chip in</button></div>'}).join('');
+ $('forSel').innerHTML=opts.concat(it.map(function(x){return x.category+': '+x.name})).map(function(o){return '<option>'+esc(o)+'</option>'}).join('')}).catch(function(){$('wishGrid').innerHTML='<p>The wish list could not load. Please try again.</p>'});
+document.addEventListener('click',function(e){var b=e.target.closest('[data-give],[data-copy]');if(!b)return;
+ if(b.dataset.copy){var v=b.dataset.copy,t=b.textContent;(navigator.clipboard?navigator.clipboard.writeText(v):Promise.reject()).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent=t},1500)},function(){prompt('Copy this',v)});return}
+ var ref=b.dataset.ref+' your name';$('mT').textContent='Give to Coffeebreak: '+b.dataset.give;
+ $('mB').innerHTML='<p>Amount: <b>'+esc(b.dataset.amt)+'</b></p><div class="pay">darkokaz@gmx.com <button class="btn p" data-copy="darkokaz@gmx.com">Copy PayID</button></div><ol class="steps"><li>Open your bank app and choose Pay to PayID.</li><li>Paste the PayID.</li><li>Use this reference: <div class="ref">'+esc(ref)+'</div></li><li>Send, then tell me below so I can thank you.</li></ol><p><a class="btn" href="#msg" id="toMsg">💌 Tell me I gave</a> <a class="btn" href="https://coffeebreaks.itch.io" target="_blank" rel="noopener">Tip on itch.io instead</a></p><p class="muted">A gift, non-refundable, not an investment.</p>';
+ $('modal').style.display='flex';$('toMsg').onclick=function(){$('modal').style.display='none';var s=$('forSel');[].forEach.call(s.options,function(o,i){if(o.text.indexOf(b.dataset.give)>=0)s.selectedIndex=i})}});
+$('mX').onclick=function(){$('modal').style.display='none'};$('modal').onclick=function(e){if(e.target===this)this.style.display='none'};
+</script></body></html>
